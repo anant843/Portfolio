@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ABES Engineering College | Login</title>
+    <style type="text/css">
+ body{ margin:0px; padding:0px }
+*,html{ margin:0px; padding:0px }
+main{ width:100%; height: auto; margin:0px auto; }
+table{ margin:0px auto; }
+table td{ text-align:center; }
+.box{ width:400px; padding:5px;  }
+.btn{ width:100px; padding:5px }
+</style>
+</head>
+<body>
+    <main><!--login-->
+        <form action="" method="get">
+        <table border="0" cellspacing="20">
+           
+
+ <tr>
+            <th>Login</th>
+            <td><strong>JS Validation for User Name and Password</strong></td>
+          
+
+ </tr>
+            <tr><td><label>User Name :</label></td>
+            <td><input type="text" placeholder="Enter User Name" 
+            class="box" id='userInput'></td>
+            </tr>
+            <tr>
+                <td><label>Password :</label></td>
+                <td><input type="Password" placeholder="Enter Password"  id="userPassword" class="box" minlength="6" ></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                <input type="submit" class="btn" onclick='validateForm()'>
+                <input type="reset" class="btn">
+                </td>
+            </tr>
+        </table>
+        </form>
+    </main><!--login-->
+    <script type="text/javascript">
+        function validateForm(){
+            var txtInput=document.getElementById('userInput').value;
+            var alfaTxt=/^[a-zA-Z]+$/;
+            var pwd=document.getElementById('userPassword').value;
+
+            if((!txtInput.match(alfaTxt)) || txtInput.length<6)
+            {
+                alert("Please Enter Only Charcters, length of 6 ");
+            }
+            else if(pwd.length<6){
+                alert("Please Enter Password atleast length of 6");
+            }
+            else{
+                alert('Success Data');
+            }
+        }
+</script>
+</body>
+</html>
+
+
+

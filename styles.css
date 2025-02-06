@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+body{
+background-color: rgb(0, 0, 33);
+color: white;
+font-family: 'poppins',sans-serif;
+}
+
+nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 80px;
+background-color: rgb(18, 18,62);
+}
+nav ul{
+display: flex;
+justify-content: center;
+}
+nav ul li{
+list-style: none;
+margin: 0 23px;
+}
+.left{
+font-size: 1.5rem;
+}
+.firstsection{
+display: flex;
+justify-content: space-around; 
+margin: 130px 0;
+}
+.firstsection > div{
+width: 30%;
+
+}
+
+.leftsection{
+font-size: 3rem;
+margin: 150px 0;
+}
+
+.first{
+display: flex;
+justify-content: space-around;
+margin: 23px 0;
+}
+
+.rightsection img{
+ width: 80%;
+ margin: 50px 0;
+}
+
+.purple{
+color: rgb(176, 122, 225);
+}
+nav ul li a{
+text-decoration: none;
+color: whitesmoke;
+}
+
+nav ul li a:hover{
+color: rgb(153,153,226);
+font-size: 1.02rem;
+}
+
+#element{
+color: rgb(153,153,226);
+}
+.secondsection{
+max-width: 80vw;
+margin: auto;
+height: 80vh;
+}
+
+main hr{
+border: 0;
+background-color: #9c97f1;
+height: 1.2px;
+margin: 60px 84px;
+}
+.secondsection h1{
+font-size: 1.9rem;
+}
+.grey{
+color: grey;
+}
+.secondsection .box{
+background: white;
+width: 72vw;
+height: 2px;
+margin: 56px 0;
+display: flex;
+}
+
+.secondsection .vertical{
+height: 93px;
+width: 1px;
+background: white;
+margin: 0 120px;
+}
+
+.imagetop{
+width: 23px;
+position: relative;
+top: -32px;
+left: -9px;
+}
+.verticaltitle{
+position: relative;
+top: 75px;
+width: 150px;
+
+}
+.verticaldesc{
+color: grey;
+width: 150px;
+font-size: 9px;
+ top: 86px;
+ position:relative;
+}
+.footer{
+display: flex;
+padding: 23px 122px;
+justify-content: space-evenly;
+}
+footer{
+background-color:#0e0e1a ;
+color: grey;
+padding: 12px;
+}
+.footer ul{
+list-style: none;
+}
+
+.footer > div{
+width:246px ;
+}
+footer .textcenter{
+text-align: center;
+color: grey;
+}
+
+.leftsection .btn{
+padding: 12px;
+background-color:#1e2167;
+color: white;
+border: 2px solid white;
+border-radius: 6px;
+font-size: 20px;
+cursor: pointer;
+}
+.leftsection .button{
+padding: 50px 0;
+
+}
